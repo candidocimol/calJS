@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+    border:1px solid rgba(185, 183, 183, 0.616);
+}
+
+main{
+    width:100vw;
+    height: 100vh;
+    padding:5vw;
+}
+
+#calc{
+    border:1px solid #585858;
+    padding: 3vw;
+    background-color:rgb(115, 167, 168);
+    width:90%;
+    margin:0 auto;
+
+}
+
+#titulo h1{
+    font-size:5vh;
+    text-align: center;
+    margin:10px;
+}
+
+#display{
+    width:90%;
+    margin:0 auto;
+    height: 15vh;
+    background-color:#fff;
+}
+#display #operacoes{
+    height: 5vh;
+    border:none;
+    color:gray
+}
+
+#display #resultado{
+    float:right;
+    height: 10vh;
+    font-size:7vh;
+    border:none;
+    padding:2vw;
+}
+
+#teclado{
+    width:90%;
+    margin:0 auto;
+   /* height: 65vh;*/
+   
+    margin-top:5vh;
+    /*display:flex;*/
+    
+    
+
+}
+
+#teclado .btn{
+    width:20%;
+    height:5vh;
+    margin:1.8%;
+   /*propriedade itens container*/
+ 
+}
+
+#teclado #btn-igual{
+    width:95%;
+}
+
+@media only screen and (min-width:580px){
+    #calc{
+        width:70%;
+    }
+} 
+@media only screen and (min-width:580px){
+    #calc{
+        width:70%;
+    }
+}
+
+@media only screen and (min-width:780px){
+    #calc{
+        width:60%;
+    }
+}
+@media only screen and (min-width:1024px){
+    #calc{
+        width:40%;
+    }
+}
